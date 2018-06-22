@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 450%;
+  font-family: Georgia, Times, serif;
+  text-shadow: 2px, 2px, 3px, #666666;
+  letter-spacing: .3em;
+  padding-top: .5em;
+  text-align: center;
+}
+
+h3 {
+  font-family: "Gill Sans", Arial, sans-serif;
+  font-style: italic;
+  font-size: 250%;
+  color: #0088dd;
+  text-align: center;
+}
+
+p {
+  color: black;
+  font-size: 1.5em;
+  line-height: 1.3em;
+  margin: 15px;
+}
+
+blockquote {
+  float: left;
+  font-size: 1.8em
+  line-height: 1.3em;
+}
+
+#ravenridge {
+  display: block;
+  margin: auto;
+}
+
+img#ravenridingeagle {
+  vertical-align: middle; 
+  padding-left: 100px;
+}
+
+.raven-photo {
+  border: 20px solid #0088dd;
+  border-radius: 5px;
+  padding: 40px;
+  margin: 3em;
+}
+
+.image-center {
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  font-family: Palintino, Times;
+  color: black;
+  font-weight: bold;
+  font-size: 1.5em;
+  line-height: 1.3em;
+  margin: 10px;
+}
+
+p.facts {
+  font-family: Palintino, Times;
+  font-style: italic;
+  display: block;
+  margin: 20px;
+  
+}
+
+fieldset {
+  width: 80%;
+  margin: auto;
+  border-radius: 5px;
+}
