@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
-}
+/*  border: 1px solid red !important;
+*/}
 
 h1 {
   font-size: 450%;
@@ -66,7 +67,8 @@ li {
   font-weight: bold;
   font-size: 1.5em;
   line-height: 1.3em;
-  margin: auto;
+  margin: 1rem;
+  padding: 1.5rem;
 }
 
 .raven-facts-title {
@@ -78,7 +80,7 @@ li {
   font-family: Palintino, Times;
   font-style: italic;
   display: block;
-  margin: 20px;
+  margin: 0 4.5rem;
   
 }
 
@@ -92,6 +94,9 @@ fieldset {
     border-image: initial;
 }
 
+.survey {
+  font-weight: bold;
+}
 .radio-buttons {
   margin-left: 100px;
 }
